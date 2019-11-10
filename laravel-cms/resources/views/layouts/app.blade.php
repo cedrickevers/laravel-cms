@@ -92,11 +92,11 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-8">
-
+                                        @yield('content')
                                 </div>
                             </div>
                 </div>
-                @yield('content')
+
                 @else
                 @yield('content')
                  @endauth
